@@ -85,7 +85,8 @@ app.get('/getAllFromID', function(req, res){
   var table;
   var id;
   var securityToken;
-  var namespace='duoworld.duoweb.info';
+  //var namespace='duoworld.duoweb.info';
+  var namespace='intouch.duosoftware.com';
 
   if(req.query.securityToken==null) {
     res.end('Parameter securityToken name is invalid');
